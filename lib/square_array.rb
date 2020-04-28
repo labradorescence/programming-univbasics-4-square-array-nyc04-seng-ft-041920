@@ -1,4 +1,4 @@
-request 'pry'
+
 def square_array(array)
   # your code here
     n = array.length
@@ -11,4 +11,3 @@ end
 array.shift(n)
 array
 end
-binding.pry
