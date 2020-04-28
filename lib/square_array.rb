@@ -4,3 +4,4 @@ def square_array(array)
     array.unshift()
     array.shift((array[index]) *( array[index]))
 end
+end
