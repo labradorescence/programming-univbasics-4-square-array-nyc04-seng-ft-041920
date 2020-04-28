@@ -1,3 +1,4 @@
+request 'pry'
 def square_array(array)
   # your code here
   array.length.times do |index|#0,#1
@@ -6,6 +7,7 @@ def square_array(array)
 
   #array.shift(array[index] * array[index])
 end
-array.shift(2)
+array.shift(array.length)
 array
 end
+binding.pry
